@@ -1,0 +1,12 @@
+source ~/kiss-env/bin/activate
+
+Esecuzione primo dataset
+kiss_icp_pipeline --visualize /home/vlad/Scrivania/Robotica_Esame/unipr_dia_00/unipr_dia/00/velodyne/
+kiss_icp_pipeline --visualize /home/vlad/Scrivania/Robotica_Esame/unipr_dia_01/unipr_dia/01/velodyne/
+
+
+python run_kiss.py
+
+pcl_viewer ../risultati_00_map.pcd -- oppure-- pcl_viewer risultati_00_map.pcd
+
+Risultato dalla cartelle build: pcl_viewer vista_virtuale_mondo.pcd
